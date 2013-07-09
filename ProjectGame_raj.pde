@@ -1,7 +1,5 @@
 // Animation baby
 int currentPosition = 0;
-int maxPlayerNumber=10;
-int minPlayerNumber=3;
 PImage [] animWin;
 PImage lose;
 PImage win;
@@ -11,8 +9,9 @@ PImage fist;
 PImage hand;
 
 // sounds
+
+// test this
 Maxim maxim;
-AudioPlayer[maxPlayerNumber] playerArray;
 AudioPlayer player1;
 AudioPlayer player2;
 AudioPlayer player3;
@@ -176,7 +175,7 @@ player5 = initPlayers(player5,"cry.wav",maxim);
 
 void draw_rect()
 {
-}
+  }
 void draw (){
 background (255);
 stroke(0);
